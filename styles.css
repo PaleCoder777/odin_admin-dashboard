@@ -21,6 +21,8 @@ body {
 .bodyGrid {
     width: 100%;
     height: 100%;
+    resize: both;
+    overflow: auto;
     display: grid;
     grid-template: 1fr / 1fr 3fr;
 }
@@ -45,4 +47,23 @@ body {
 
 .content {
     background-color: green;
+}
+
+/* Sidebar Section Subgrid */
+.sidebar {
+    background-color: teal;
+    display: grid;
+    grid-template: 2fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 5fr / 1fr;
+}
+
+.sidebarItem {
+    outline: 1px solid white;
+    display: grid;
+    grid-template: 1fr / 1fr 5fr;
+    margin-left: 2rem;
+}
+
+.dashboardLine {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
 }
