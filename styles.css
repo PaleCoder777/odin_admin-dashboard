@@ -32,24 +32,24 @@ body {
 }
 
 .main {
-    background-color: darkgreen;
+    background-color: darkgray;
 }
 
-/* Main section SubGrid Lvl 1 */
+/* ----- Main section SubGrid Lvl 1 ----- */
 .main {
     display: grid;
     grid-template: 1fr 4fr / 1fr;
 }
 
 .header {
-    background-color: darkred;
+    /* background-color: darkred; */
 }
 
 .content {
     background-color: green;
 }
 
-/* Sidebar Section Subgrid */
+/* ----- Sidebar Section Subgrid ----- */
 .sidebar {
     background-color: teal;
     display: grid;
@@ -66,4 +66,60 @@ body {
 .dashboardLine {
     margin-left: 1.5rem;
     margin-top: 1rem;
+}
+
+/* ----- Header Section SubGrid ----- */
+.header {
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+}
+
+.headerItem {
+    outline: 1px solid white;
+}
+
+.searchGroup {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 9fr;
+}
+
+.profileGroup {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+    .profileGroup > .icon {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .profileGroup > img + img {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .profileGroup > p {
+        grid-column: 4 / span 2;
+        grid-row: 1;
+    }
+
+.greetingGroup {
+    margin-left: 3rem;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 5fr;
+}
+
+    .greetingGroup > img {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+.actionGroup {
+    margin-right: 3rem;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
 }
