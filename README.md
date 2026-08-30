@@ -24,15 +24,54 @@
 
 
 ## Related Topics/Concepts
-- HTML, CSS, grid, git, github, terminal, 
+- HTML, CSS, git, github, terminal, CSS grid, font-face, 
 
 ## Credits
 
 ### Fonts
 
+- [Roboto](https://fonts.google.com/specimen/Roboto)
 
 ### Photos
 
 
-### Images/Logos
+### Images/Logos/Icons
+- [Dashboard Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/view-dashboard-outline/)
 
+- [Home Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/home/)
+
+- [Profile Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/card-account-details/)
+
+- [Message Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/message-reply-outline/)
+
+- [History Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/history/)
+
+- [Tasks Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/note-multiple-outline/)
+
+- [Communities Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/account-group-outline/)
+
+- [Settings Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/cog-outline/)
+
+- [Support Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/help-box-outline/)
+
+- [Privacy Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/shield-check-outline/)
+
+- [Search Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/magnify/)
+
+- [Notifications Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/bell-ring-outline/)
+
+- [Star Plus Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/star-plus-outline/)
+
+- [Eye Plus Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/eye-plus-outline/)
+
+- [Share Icon from Pictogrammers](https://pictogrammers.com/library/mdi/icon/share-variant-outline/)
+
+- [Profile Pic by Yusril Habibu Kamla, Vecteezy](https://www.vecteezy.com/vector-art/9280388-young-boy-face-illustration-design")
+
+- [Trending Profile Pic 01 by Yusril Habibu Kamla, Vecteezy](https://www.vecteezy.com/vector-art/9280360-young-male-face-illustration-design-with-glasses)
+
+- [Trending Profile Pic 02 by Yusril Habibu Kamla, Vecteezy](https://www.vecteezy.com/vector-art/9280229-straight-hair-young-girl-face-illustration-design)
+
+- [Trending Profile Pic 03, freesvg.org](https://freesvg.org/comic-boy-profile-picture-vector-illustration)
+
+- [Trending Profile Pic 04, freesvg.org](https://freesvg.org/female-head-profile-silhouette-image)
