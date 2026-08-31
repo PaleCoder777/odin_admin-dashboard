@@ -145,32 +145,37 @@ img {
         border: none;
         box-shadow: none;
         background-color: lightgray;
-        font-size: 1.5rem;
-        padding: 0px 20px;
+        font-size: 1rem;
+        padding: 5px 20px;
     }
 
-
-
 .profileGroup {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-right: 3rem;
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
 }
 
     .profileGroup > .icon {
-        grid-column: 2;
-        grid-row: 1;
+        /* grid-column: 2; */
+        /* grid-row: 1; */
     }
 
     .profileGroup > .profile {
-        grid-column: 3;
-        grid-row: 1;
+        /* grid-column: 3; */
+        /* grid-row: 1; */
+        height: 75px;
+        width: 75px;
     }
 
     .profileGroup > p {
-        grid-column: 4 / span 2;
-        grid-row: 1;
+        /* grid-column: 4 / span 2; */
+        /* grid-row: 1; */
+        font-weight: bold;
     }
 
 .greetingGroup {
