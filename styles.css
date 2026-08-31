@@ -158,6 +158,7 @@ img {
     align-items: center;
     justify-content: right;
     gap: 2rem;
+    padding-right: 2rem;
 }
 
     .profileGroup > .icon {
@@ -206,9 +207,23 @@ img {
 
 .actionGroup {
     margin-right: 3rem;
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template: 1fr / 1fr 1fr 1fr; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2rem;
 }
+
+    .actionGroup > button {
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 10px 30px;
+        border-radius: 2rem;
+        background-color: teal;
+        border: none;
+        color: white;
+    }
 
 /* ----- Main Content Section SubGrid ----- */
 .content {
