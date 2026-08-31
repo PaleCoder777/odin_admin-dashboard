@@ -13,8 +13,8 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
     font-family: "Roboto", sans-serif;
 }
 
@@ -46,7 +46,7 @@ img {
 }
 
 .main {
-    background-color: darkgray;
+    /* background-color: darkgray; */
 }
 
 /* ----- Main section SubGrid Lvl 1 ----- */
@@ -60,7 +60,7 @@ img {
 }
 
 .content {
-    background-color: green;
+    /* background-color: green; */
 }
 
 /* ----- Sidebar Section Subgrid ----- */
@@ -68,6 +68,7 @@ img {
     background-color: teal;
     display: grid;
     grid-template: 100px repeat(5, 50px) 100px repeat(3, 50px) 1fr / 1fr;
+    color: white;
 }
 
 .sidebarItem {
@@ -83,7 +84,6 @@ img {
         width: 25px;
         height: 25px;
         margin-left: 1rem;
-
     }
 
     .sidebarItem > p {
@@ -123,12 +123,33 @@ img {
     outline: 1px solid white;
 }
 
+    .headerItem img {
+        width: 25px;
+        height: 25px;
+    }
+
 .searchGroup {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-left: 3rem;
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 9fr;
+    /* display: grid; */
+    /* grid-template: 1fr 1fr / 1fr 9fr; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
+
+    #headerSearch {
+        margin-right: 3rem;
+        flex: 1 1;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: none;
+        background-color: lightgray;
+        font-size: 1.5rem;
+        padding: 0px 20px;
+    }
+
+
 
 .profileGroup {
     margin-top: 1rem;
@@ -142,7 +163,7 @@ img {
         grid-row: 1;
     }
 
-    .profileGroup > img + img {
+    .profileGroup > .profile {
         grid-column: 3;
         grid-row: 1;
     }
